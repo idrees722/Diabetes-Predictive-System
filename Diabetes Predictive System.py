@@ -3,7 +3,7 @@ import pickle
 import streamlit as st
 
 #Load the Saved Model
-classifier = pickle.load(open('D:\\Projects\\0 - Completed\\1. Diabetes Predictive System\\classifier_model.sav', 'rb'))
+classifier = pickle.load(open('classifier_model.sav', 'rb'))
 
 #Function for Prediction
 def diabetes(predictive_input):
